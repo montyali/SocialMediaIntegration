@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *tweet;
 
+@property (weak, nonatomic) IBOutlet UIButton *face;
+@property (weak, nonatomic) IBOutlet UIButton *social;
 
 @end
 

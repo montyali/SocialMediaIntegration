@@ -74,9 +74,22 @@
         }
         
     }];
-    [alert addAction:cancel];
+//    UIAlertAction *more=[UIAlertAction actionWithTitle:@"more" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
+//        UIActivityViewController *moreVC=[[UIActivityViewController alloc]initWithActivityItems:@[self.tweetText.text]
+//                                                                          applicationActivities:
+//                                          nil];
+//        
+//        [self presentViewController:moreVC animated:YES completion:nil];
+//    }
+//                         
+//                         ];
+    
+
+    
     
     [alert addAction:tweet];
+//    [alert addAction:more];
+    [alert addAction:cancel];
     [self presentViewController:alert animated:YES completion:nil ];
 }
 @end

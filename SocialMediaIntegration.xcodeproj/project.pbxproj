@@ -19,6 +19,7 @@
 		8453494F1EE121E50050CE59 /* Facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8453494E1EE121E50050CE59 /* Facebook@2x.png */; };
 		845349511EE122020050CE59 /* Twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845349501EE122020050CE59 /* Twitter@2x.png */; };
 		84FBB7141EE1269D0086FBEA /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84FBB7131EE1269D0086FBEA /* splash.jpg */; };
+		84FBB7181EE1569A0086FBEA /* SharedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBB7171EE1569A0086FBEA /* SharedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		8453494E1EE121E50050CE59 /* Facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Facebook@2x.png"; path = "../../../Downloads/pixellove_free/Outline@2x/Facebook@2x.png"; sourceTree = "<group>"; };
 		845349501EE122020050CE59 /* Twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Twitter@2x.png"; path = "../../../Downloads/pixellove_free/Outline@2x/Twitter@2x.png"; sourceTree = "<group>"; };
 		84FBB7131EE1269D0086FBEA /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash.jpg; path = ../../../Downloads/splash.jpg; sourceTree = "<group>"; };
+		84FBB7161EE1569A0086FBEA /* SharedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedViewController.h; sourceTree = "<group>"; };
+		84FBB7171EE1569A0086FBEA /* SharedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 		8453492B1EE1101A0050CE59 /* SocialMediaIntegration */ = {
 			isa = PBXGroup;
 			children = (
+				84FBB7151EE156580086FBEA /* SharedApps */,
 				845349471EE110E60050CE59 /* Facebook */,
 				845349431EE110A60050CE59 /* Twitter */,
 				8453492F1EE1101A0050CE59 /* AppDelegate.h */,
@@ -124,6 +128,15 @@
 				8453494C1EE117AD0050CE59 /* Social.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84FBB7151EE156580086FBEA /* SharedApps */ = {
+			isa = PBXGroup;
+			children = (
+				84FBB7161EE1569A0086FBEA /* SharedViewController.h */,
+				84FBB7171EE1569A0086FBEA /* SharedViewController.m */,
+			);
+			name = SharedApps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845349461EE110D90050CE59 /* TwitterViewController.m in Sources */,
+				84FBB7181EE1569A0086FBEA /* SharedViewController.m in Sources */,
 				845349341EE1101A0050CE59 /* ViewController.m in Sources */,
 				845349311EE1101A0050CE59 /* AppDelegate.m in Sources */,
 				8453494A1EE110FD0050CE59 /* FacebookViewController.m in Sources */,
