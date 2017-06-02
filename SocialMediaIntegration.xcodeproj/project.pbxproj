@@ -15,6 +15,10 @@
 		8453493C1EE1101A0050CE59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8453493A1EE1101A0050CE59 /* LaunchScreen.storyboard */; };
 		845349461EE110D90050CE59 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845349451EE110D90050CE59 /* TwitterViewController.m */; };
 		8453494A1EE110FD0050CE59 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845349491EE110FD0050CE59 /* FacebookViewController.m */; };
+		8453494D1EE117AD0050CE59 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8453494C1EE117AD0050CE59 /* Social.framework */; };
+		8453494F1EE121E50050CE59 /* Facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8453494E1EE121E50050CE59 /* Facebook@2x.png */; };
+		845349511EE122020050CE59 /* Twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845349501EE122020050CE59 /* Twitter@2x.png */; };
+		84FBB7141EE1269D0086FBEA /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84FBB7131EE1269D0086FBEA /* splash.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		845349451EE110D90050CE59 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 		845349481EE110FD0050CE59 /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
 		845349491EE110FD0050CE59 /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+		8453494C1EE117AD0050CE59 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8453494E1EE121E50050CE59 /* Facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Facebook@2x.png"; path = "../../../Downloads/pixellove_free/Outline@2x/Facebook@2x.png"; sourceTree = "<group>"; };
+		845349501EE122020050CE59 /* Twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Twitter@2x.png"; path = "../../../Downloads/pixellove_free/Outline@2x/Twitter@2x.png"; sourceTree = "<group>"; };
+		84FBB7131EE1269D0086FBEA /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash.jpg; path = ../../../Downloads/splash.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8453494D1EE117AD0050CE59 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			children = (
 				8453492B1EE1101A0050CE59 /* SocialMediaIntegration */,
 				8453492A1EE1101A0050CE59 /* Products */,
+				8453494B1EE117AD0050CE59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +84,9 @@
 				845349381EE1101A0050CE59 /* Assets.xcassets */,
 				8453493A1EE1101A0050CE59 /* LaunchScreen.storyboard */,
 				8453493D1EE1101A0050CE59 /* Info.plist */,
+				845349501EE122020050CE59 /* Twitter@2x.png */,
+				84FBB7131EE1269D0086FBEA /* splash.jpg */,
+				8453494E1EE121E50050CE59 /* Facebook@2x.png */,
 				8453492C1EE1101A0050CE59 /* Supporting Files */,
 			);
 			path = SocialMediaIntegration;
@@ -103,6 +116,14 @@
 				845349491EE110FD0050CE59 /* FacebookViewController.m */,
 			);
 			name = Facebook;
+			sourceTree = "<group>";
+		};
+		8453494B1EE117AD0050CE59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8453494C1EE117AD0050CE59 /* Social.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,8 +184,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FBB7141EE1269D0086FBEA /* splash.jpg in Resources */,
+				845349511EE122020050CE59 /* Twitter@2x.png in Resources */,
 				8453493C1EE1101A0050CE59 /* LaunchScreen.storyboard in Resources */,
 				845349391EE1101A0050CE59 /* Assets.xcassets in Resources */,
+				8453494F1EE121E50050CE59 /* Facebook@2x.png in Resources */,
 				845349371EE1101A0050CE59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +363,7 @@
 				845349421EE1101A0050CE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
