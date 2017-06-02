@@ -13,6 +13,8 @@
 		845349371EE1101A0050CE59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845349351EE1101A0050CE59 /* Main.storyboard */; };
 		845349391EE1101A0050CE59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845349381EE1101A0050CE59 /* Assets.xcassets */; };
 		8453493C1EE1101A0050CE59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8453493A1EE1101A0050CE59 /* LaunchScreen.storyboard */; };
+		845349461EE110D90050CE59 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845349451EE110D90050CE59 /* TwitterViewController.m */; };
+		8453494A1EE110FD0050CE59 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845349491EE110FD0050CE59 /* FacebookViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		845349381EE1101A0050CE59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8453493B1EE1101A0050CE59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8453493D1EE1101A0050CE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845349441EE110D90050CE59 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		845349451EE110D90050CE59 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		845349481EE110FD0050CE59 /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		845349491EE110FD0050CE59 /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		8453492B1EE1101A0050CE59 /* SocialMediaIntegration */ = {
 			isa = PBXGroup;
 			children = (
+				845349471EE110E60050CE59 /* Facebook */,
+				845349431EE110A60050CE59 /* Twitter */,
 				8453492F1EE1101A0050CE59 /* AppDelegate.h */,
 				845349301EE1101A0050CE59 /* AppDelegate.m */,
 				845349321EE1101A0050CE59 /* ViewController.h */,
@@ -77,6 +85,24 @@
 				8453492D1EE1101A0050CE59 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845349431EE110A60050CE59 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				845349441EE110D90050CE59 /* TwitterViewController.h */,
+				845349451EE110D90050CE59 /* TwitterViewController.m */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+		845349471EE110E60050CE59 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				845349481EE110FD0050CE59 /* FacebookViewController.h */,
+				845349491EE110FD0050CE59 /* FacebookViewController.m */,
+			);
+			name = Facebook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845349461EE110D90050CE59 /* TwitterViewController.m in Sources */,
 				845349341EE1101A0050CE59 /* ViewController.m in Sources */,
 				845349311EE1101A0050CE59 /* AppDelegate.m in Sources */,
+				8453494A1EE110FD0050CE59 /* FacebookViewController.m in Sources */,
 				8453492E1EE1101A0050CE59 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
